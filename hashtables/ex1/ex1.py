@@ -1,7 +1,6 @@
 def get_indices_of_item_weights(weights, length, limit):
     """
-    YOUR CODE HERE
-    Return indices of the 2 items whose totaled weight equals the limit
+    Return indices of the 2 items whose totaled weight equals the limit.
 
     First, make a hashtable with each weight in weights as a key; its index as its value.
     Then, loop through weight to see if a key exists that is 
